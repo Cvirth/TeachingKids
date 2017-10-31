@@ -33,6 +33,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="SmallBasicFun, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\TeachingKidsProgramming.CSharp.0.06\lib\SmallBasicFun.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="SmallBasicLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\TeachingKidsProgramming.CSharp.0.06\lib\SmallBasicLibrary.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -43,11 +51,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="01.SimpleSquare\SimpleSquare.cs" />
+    <Compile Include="01.SimpleSquare\SimpleSquareHomework.cs" />
+    <Compile Include="01.SimpleSquare\SimpleSquareQuiz.cs" />
+    <Compile Include="02.Houses\Houses.cs" />
+    <Compile Include="02.Houses\HousesHomework.cs" />
+    <Compile Include="02.Houses\HousesQuiz.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="privacy_policy.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
