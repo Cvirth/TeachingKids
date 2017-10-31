@@ -4,7 +4,7 @@ namespace SimpleSquare
 {
 	public class SimpleSquare
 	{
-		public static void Main()
+		public static void Main2()
 		{
 			//	Show the tortoise --#1
 

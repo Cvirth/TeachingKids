@@ -2,7 +2,7 @@
 {
 	public class Houses
 	{
-		public static void main(string[] args)
+		public static void main3(string[] args)
 		{
 			//   Make the tortoise move as fast as possible --#11
 

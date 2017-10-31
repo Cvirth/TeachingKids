@@ -10,6 +10,7 @@ namespace TeachingKids
     {
         static void Main(string[] args)
         {
+            SimpleSquare.SimpleSquare.Main2();
         }
     }
 }
