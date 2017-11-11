@@ -15,18 +15,18 @@ namespace Houses
 		private static void youcanreadvariables()
 		{
 			var numberOfDesserts = 5;
-			Homework.CheckAnswer(___, equals, numberOfDesserts);
+			Homework.CheckAnswer(5, equals, numberOfDesserts);
 		}
 
 		private static void youcansavevariables()
 		{
-			var ickynessOfBrothers = ___;
+			var ickynessOfBrothers = 10;
 			Homework.CheckAnswer(10, equals, ickynessOfBrothers);
 		}
 
 		private static void youcandomathwithvariables()
 		{
-			var ___ = 3 + 4;
+			var numberOfHarryPotterBooks = 3 + 4;
 			Homework.CheckAnswer(7, equals, numberOfHarryPotterBooks);
 		}
 
@@ -35,7 +35,7 @@ namespace Houses
 			var milkTastiness = 6;
 			addChocolate();
 			milkTastiness = 10;
-			Homework.CheckAnswer(___, equals, milkTastiness);
+			Homework.CheckAnswer(10, equals, milkTastiness);
 		}
 
 		private static void addChocolate()
@@ -47,7 +47,7 @@ namespace Houses
 		{
 			var boogers = 4;
 			blowNose();
-			boogers = ___;
+			boogers = 0;
 			Homework.CheckAnswer(0, equals, boogers);
 		}
 
@@ -59,7 +59,7 @@ namespace Houses
 		{
 			var age = 11;
 			celebrateBirthday();
-			age = age + ___;
+			age = age + 1;
 			Homework.CheckAnswer(12, equals, age);
 		}
 
@@ -70,7 +70,7 @@ namespace Houses
 		private static void youcansubtractfromavariable()
 		{
 			var amountOfHomework = 3;
-			amountOfHomework = amountOfHomework - ___;
+			amountOfHomework = amountOfHomework - 3;
 			Homework.CheckAnswer(0, equals, amountOfHomework);
 		}
 
@@ -78,20 +78,20 @@ namespace Houses
 		{
 			var volumeOfMyVoice = 2;
 			var volumeMyMomHears = volumeOfMyVoice*5;
-			Homework.CheckAnswer(___, equals, volumeMyMomHears);
+			Homework.CheckAnswer(10, equals, volumeMyMomHears);
 		}
 
 		private static void youcandividevariables()
 		{
 			var inches = 36;
-			var feet = ___/12;
+			var feet = inches/12;
 			Homework.CheckAnswer(3, equals, feet);
 		}
 
 		private static void youcansetvariablesinothermethods()
 		{
 			CreateXmasList();
-			Homework.CheckAnswer(___, equals, xmasList);
+			Homework.CheckAnswer("hippopotamus", equals, xmasList);
 		}
 
 		private static void CreateXmasList()
@@ -101,7 +101,7 @@ namespace Houses
 
 		private static void youcancallmethodsbyname()
 		{
-			______();
+			PrepareForBed();
 			Homework.CheckAnswer("gum", equals, bedPost);
 		}
 
@@ -112,13 +112,13 @@ namespace Houses
 
 		private static void youcanchoosethemethodnames()
 		{
-			______();
+            SetThingsThatSmellFunny();
 			Homework.CheckAnswer("feet", equals, thingsThatSmellFunny);
 			// You need to change two blanks for this problem
 		}
 
 
-		private static void _____()
+		private static void SetThingsThatSmellFunny()
 		{
 			thingsThatSmellFunny = "feet";
 		}
@@ -132,7 +132,7 @@ namespace Houses
 
 		private static void Grow()
 		{
-			height = height + ____;
+			height = height + 1;
 		}
 
 		#region Ignore

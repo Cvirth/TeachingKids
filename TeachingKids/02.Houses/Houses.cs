@@ -1,45 +1,47 @@
-﻿namespace Houses
+﻿using SmallBasicFun;
+namespace Houses
 {
-	public class Houses
-	{
-		public static void Main2(string[] args)
-		{
-			//   Make the tortoise move as fast as possible --#11
+    public class Houses
+    {
+        public static void Main2(string[] args)
+        {
+            Tortoise.SetSpeed(10);
+            Tortoise.SetX(200);
+            var heigthOfHouse = 40;
+            Tortoise.SetPenColor("LightGray");
+            DrawHouse(heigthOfHouse);
 
-			//   Have the tortoise start at 200 pixels in on the X axis --#14
+            heigthOfHouse = 120;
+            DrawHouse(heigthOfHouse);
 
-			//   The current height is 40 --#1.2
+            //DrawHouse(120);
+            DrawHouse(90);
+            DrawHouse(20);
+        }
 
-			//   drawHouse (recipe below) --#9
+        private static void DrawHouse(int heigthOfHouse)
+        {
+            Tortoise.Move(heigthOfHouse);
+            Tortoise.Turn(90);
+            Tortoise.Move(30);
+            Tortoise.Turn(90);
+            Tortoise.Move(heigthOfHouse);
+            Tortoise.Turn(-90);
+            Tortoise.Move(20);
+            Tortoise.Turn(-90);
+        }
 
-			//   ------------- Recipe for drawHouse --#9
+        public static void/*<--output*/ FuggvenyNev(/*input*/)
+        {
+            // sor
+            /*
+             sdf
+             sdf
+             asd
+             
+             */
+        }
 
-			//   Change the color of the line the tortoise draws to lightGray --#15
 
-			//   Move the tortoise the height of a house --#1.1
-
-			//   Turn the tortoise 90 degrees to the right --#2
-
-			//   Move the tortoise 30 pixels --#3
-
-			//   Turn the tortoise 90 degrees to the right --#4
-
-			//   Move the tortoise the height of a house --#5
-
-			//   Turn the tortoise 90 degrees to the left --#6
-
-			//   Move the tortoise 20 pixels --#7
-
-			//   Turn the tortoise 90 degrees to the left --#8
-
-			//   ------------- End of drawHouse recipe
-
-			//   DrawHouse with height 120 (recipe below) --#10
-
-			//   DrawHouse with height 90 (recipe below) --#12
-
-			//   DrawHouse with height 20 (recipe below) --#13
-
-		}
-	}
+    }
 }

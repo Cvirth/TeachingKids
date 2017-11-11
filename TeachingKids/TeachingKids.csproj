@@ -33,6 +33,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
     <Reference Include="SmallBasicFun, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\TeachingKidsProgramming.CSharp.0.06\lib\SmallBasicFun.dll</HintPath>
       <Private>True</Private>
@@ -51,12 +53,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="01.SimpleSquare\DoubleLoop.cs" />
+    <Compile Include="01.SimpleSquare\MakeALogo.cs" />
     <Compile Include="01.SimpleSquare\SimpleSquare.cs" />
     <Compile Include="01.SimpleSquare\SimpleSquareHomework.cs" />
     <Compile Include="01.SimpleSquare\SimpleSquareQuiz.cs" />
+    <Compile Include="01.SimpleSquare\Spiral.cs" />
+    <Compile Include="02.Houses\FourSquare.cs" />
     <Compile Include="02.Houses\Houses.cs" />
     <Compile Include="02.Houses\HousesHomework.cs" />
     <Compile Include="02.Houses\HousesQuiz.cs" />
+    <Compile Include="02.Houses\PyramidsOfGiza.cs" />
+    <Compile Include="02.Houses\TriangleShell.cs" />
+    <Compile Include="03.HiLow\HiLow.cs" />
+    <Compile Include="03.HiLow\HiLowHomework.cs" />
+    <Compile Include="03.HiLow\HiLowQuiz.cs" />
+    <Compile Include="Gyakorlas1.cs" />
+    <Compile Include="Gyakorlas2.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
