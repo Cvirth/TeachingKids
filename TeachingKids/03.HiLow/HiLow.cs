@@ -35,6 +35,8 @@ namespace HiLow
                 {
                     MessageBox.ShowMessage("Answer is too low");
                 }
+
+                
             }
 
             MessageBox.ShowMessage("You lost");

@@ -20,9 +20,23 @@ namespace TeachingKids._03.HiLow
         public void doesABear()
         {
             String bearPoopPlace = "";
+
+            bool b = true; //false
+
+            // true false
+            // not true -> false
+            // ! true -> false
+
+
+            var feltetel = 1 > 3;
+            if (feltetel)
+            {
+                //...
+            }
+
             if (true)
             {
-                bearPoopPlace = ___;
+                bearPoopPlace = "woods";
             }
             //Assert.assertEquals("woods", bearPoopPlace);
         }
@@ -34,13 +48,13 @@ namespace TeachingKids._03.HiLow
             {
                 dessert = "ketchup";
             }
-            //Assert.assertEquals(___, dessert);
+            //Assert.assertEquals("chocolate", dessert);
         }
 
         public void notEverEverEver()
         {
             String dessert = "chocolate";
-            if (!_____)
+            if (!true)
             {
                 dessert = "ketchup";
             }
@@ -50,7 +64,7 @@ namespace TeachingKids._03.HiLow
         public void isThePopeCatholic()
         {
             String pope = "";
-            if (_____)
+            if (true)
             {
                 pope = "Catholic";
             }
@@ -60,7 +74,7 @@ namespace TeachingKids._03.HiLow
         public void trueOrFalse()
         {
             String animal = "cat";
-            bool elephant = _____;
+            bool elephant = true;
             if (elephant)
             {
                 animal = "flat " + animal;
@@ -71,7 +85,7 @@ namespace TeachingKids._03.HiLow
         public void letSleepingBabiesLie()
         {
             String babySounds = "";
-            bool sleeping = ______;
+            bool sleeping = false;
             if (sleeping)
             {
                 babySounds = "zzzzzzzzzzzz";
@@ -86,7 +100,7 @@ namespace TeachingKids._03.HiLow
         public void howCoachThinks()
         {
             String coachSays = "try harder";
-            int percentEffort = ____;
+            int percentEffort = 110;
             if (percentEffort == 110)
             {
                 coachSays = "good job";
@@ -97,7 +111,7 @@ namespace TeachingKids._03.HiLow
         public void lessThan()
         {
             String modeOfTransportation = "";
-            int age = ____;
+            int age = 15;
             if (age < 16)
             {
                 modeOfTransportation = "keep walking";
@@ -112,7 +126,7 @@ namespace TeachingKids._03.HiLow
         public void greaterThan()
         {
             String kidSays = "";
-            int numberOfIceCreams = ____;
+            int numberOfIceCreams = 5;
             if (numberOfIceCreams > 4)
             {
                 kidSays = "I think I'm gonna barf";
@@ -127,8 +141,8 @@ namespace TeachingKids._03.HiLow
         public void notEqual()
         {
             String playerSays = "";
-            int cards = ____;
-            if (cards != 52)
+            int cards = 52;
+            if (cards != 52) // == != >= <=   ---  rossz: =< =>
             {
                 playerSays = "Not playing with a full deck!";
             }
@@ -142,12 +156,12 @@ namespace TeachingKids._03.HiLow
         public void equalsForStrings()
         {
             String knockKnock = "";
-            String whosThere = ___;
-            if (whosThere.Equals("bananas"))
+            String whosThere = "bananas";
+            if (whosThere == "bananas")                           //if (whosThere.Equals("bananas"))
             {
                 knockKnock = "Who's there?";
             }
-            else if (whosThere.Equals("orange"))
+            else if (whosThere == "orange")                      //else if (whosThere.Equals("orange"))
             {
                 knockKnock = "Orange you glad I didn't say bananas?";
             }
@@ -157,8 +171,8 @@ namespace TeachingKids._03.HiLow
         public void thisAndThat()
         {
             String time = "";
-            int score = ____;
-            int years = ____;
+            int score = 4;
+            int years = 7;
             if (score == 4 && years == 7)
             {
                 time = "Presidential";
@@ -169,8 +183,9 @@ namespace TeachingKids._03.HiLow
         public void theBeginningOrEnd()
         {
             String shoppingList = "";
-            int age = ____;
+            int age = 1;
             if (age <= 2 || 90 <= age)
+            //if (age <= 2 ^ 90 <= age)
             {
                 shoppingList = "diapers";
             }
@@ -180,7 +195,7 @@ namespace TeachingKids._03.HiLow
         public void ifInHighSchool()
         {
             String status = "";
-            int age = ____;
+            int age = 18;
             if (age <= 15)
             {
                 status = "smarty";
@@ -200,7 +215,7 @@ namespace TeachingKids._03.HiLow
         {
             String status = "";
             String animal = "PIG";
-            bool isWinningKarate = ______;
+            bool isWinningKarate = false;
             if (animal.Equals("pig", StringComparison.InvariantCultureIgnoreCase))
             {
                 if (isWinningKarate)
@@ -223,7 +238,7 @@ namespace TeachingKids._03.HiLow
             {
                 dessert = "ketchup";
             }
-            //Assert.assertEquals(___, dessert);
+            //Assert.assertEquals("ketchup", dessert);
         }
         /**
 		 * Ignore the following, It's needed to run the deep dive

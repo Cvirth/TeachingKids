@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TeachingKids._03.HiLow;
 
 namespace TeachingKids
 {
@@ -26,7 +27,8 @@ namespace TeachingKids
             //SimpleSquare.MakeALogo.Start();
             //SimpleSquare.DoubleLoop.Start();
             //SimpleSquare.Spiral.Start();
-            HiLow.HiLow.Start();
+            //HiLow.HiLow.Start();
+            ConcentricLoop.Start();
 
 
             //WriteOutThisNumber(10);

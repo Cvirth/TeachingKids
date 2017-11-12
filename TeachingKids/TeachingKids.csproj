@@ -65,6 +65,8 @@
     <Compile Include="02.Houses\HousesQuiz.cs" />
     <Compile Include="02.Houses\PyramidsOfGiza.cs" />
     <Compile Include="02.Houses\TriangleShell.cs" />
+    <Compile Include="03.HiLow\ChooseYourOwnAdventure.cs" />
+    <Compile Include="03.HiLow\ConcentricLoop.cs" />
     <Compile Include="03.HiLow\HiLow.cs" />
     <Compile Include="03.HiLow\HiLowHomework.cs" />
     <Compile Include="03.HiLow\HiLowQuiz.cs" />
