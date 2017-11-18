@@ -30,7 +30,10 @@ namespace TeachingKids
             //SimpleSquare.Spiral.Start();
             //HiLow.HiLow.Start();
             //ConcentricLoop.Start();
-            PentagonCrazy.Start();
+            //PentagonCrazy.Start();
+            //KnottedRing.Start();
+            //DigiFlower.Start();
+            BackgroundPhoto.Start();
 
 
             //WriteOutThisNumber(10);

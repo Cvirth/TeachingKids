@@ -70,7 +70,11 @@
     <Compile Include="03.HiLow\HiLow.cs" />
     <Compile Include="03.HiLow\HiLowHomework.cs" />
     <Compile Include="03.HiLow\HiLowQuiz.cs" />
+    <Compile Include="04.Mastery\BackgroundPhoto.cs" />
+    <Compile Include="04.Mastery\DigiFlower.cs" />
+    <Compile Include="04.Mastery\KnottedRing.cs" />
     <Compile Include="04.Mastery\PentagonCrazy.cs" />
+    <Compile Include="04.Mastery\PentagonCrazyQuiz.cs" />
     <Compile Include="Gyakorlas1.cs" />
     <Compile Include="Gyakorlas2.cs" />
     <Compile Include="Program.cs" />
