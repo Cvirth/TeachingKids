@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TeachingKids._03.HiLow;
+using TeachingKids._04.Mastery;
 
 namespace TeachingKids
 {
@@ -28,7 +29,8 @@ namespace TeachingKids
             //SimpleSquare.DoubleLoop.Start();
             //SimpleSquare.Spiral.Start();
             //HiLow.HiLow.Start();
-            ConcentricLoop.Start();
+            //ConcentricLoop.Start();
+            PentagonCrazy.Start();
 
 
             //WriteOutThisNumber(10);
