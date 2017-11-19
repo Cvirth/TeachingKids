@@ -76,6 +76,9 @@
     <Compile Include="04.Mastery\PentagonCrazy.cs" />
     <Compile Include="04.Mastery\PentagonCrazyHomework.cs" />
     <Compile Include="04.Mastery\PentagonCrazyQuiz.cs" />
+    <Compile Include="05.Recursion\SpiderWeb.cs" />
+    <Compile Include="05.Recursion\TreeQuiz.cs" />
+    <Compile Include="05.Recursion\TurtleTree.cs" />
     <Compile Include="Gyakorlas1.cs" />
     <Compile Include="Gyakorlas2.cs" />
     <Compile Include="Program.cs" />
@@ -86,6 +89,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="04.Mastery\Small Basic Graphics Window.jpg" />
     <Content Include="privacy_policy.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
