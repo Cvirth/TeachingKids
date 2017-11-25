@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using TeachingKids._03.HiLow;
 using TeachingKids._04.Mastery;
 using TeachingKids._05.Recursion;
+using TeachingKids.MyTasks;
 
 namespace TeachingKids
 {
@@ -18,25 +19,10 @@ namespace TeachingKids
         {
             //var aaa = 22342;
 
-            //SimpleSquare.SimpleSquare.Main2();
-            //SimpleSquareQuiz.Main2();
-            //Houses.Houses.Main2(args);
-            // Houses.HousesHomework.Main2();
-            //Houses.HousesQuiz.Main2();
-            //Houses.FourSquare.Main2();
-            //TeachingKids._02.Houses.PyramidsOfGiza.Main2(args);
-            //Houses.TriangleShell.Main2();
-            //SimpleSquare.MakeALogo.Start();
-            //SimpleSquare.DoubleLoop.Start();
-            //SimpleSquare.Spiral.Start();
-            //HiLow.HiLow.Start();
-            //ConcentricLoop.Start();
-            //PentagonCrazy.Start();
-            //KnottedRing.Start();
-            //DigiFlower.Start();
-            //BackgroundPhoto.Start();
             //TurtleTree.Start();
-            SpiderWeb.Start();
+            //SpiderWeb.Start();
+            //RecursiveSquare.Start();
+            ArrayTasks.Start();
 
 
             //WriteOutThisNumber(10);
