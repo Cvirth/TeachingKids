@@ -20,14 +20,14 @@ namespace TeachingKids._05.Recursion
         {
             var colors = new Dictionary<int, Primitive>();
             colors[10] = Colors.Lime;
-            colors[____] = Colors.DarkGreen;
+            colors[20] = Colors.DarkGreen;
             //Assert.assertEquals(Colors.DarkGreen, colors[20]));
         }
         public void setColorUsingKey2()
         {
             var colors = new Dictionary<int, Primitive> {
                 [10] = Colors.Lime,
-                [____] = Colors.DarkGreen
+                [20] = Colors.DarkGreen
             };
             //Assert.assertEquals(Colors.DarkGreen, colors[20]));
         }
@@ -37,7 +37,7 @@ namespace TeachingKids._05.Recursion
             var colors = new Dictionary<int, Primitive>();
             colors[20] = Colors.DarkGreen;
             colors[30] = Colors.Green;
-            //Assert.assertEquals(Colors.Green, colors.get(___));
+            //Assert.assertEquals(Colors.Green, colors[30]);
         }
 
         public void findTheGreenKey2()
@@ -46,7 +46,7 @@ namespace TeachingKids._05.Recursion
                 [20] = Colors.DarkGreen,
                 [30] = Colors.Green
             };
-            //Assert.assertEquals(Colors.Green, colors.get(___));
+            //Assert.assertEquals(Colors.Green, colors[30]);
         }
 
         public void findTheColorForTheBananaKey()
@@ -54,7 +54,7 @@ namespace TeachingKids._05.Recursion
             var colors = new Dictionary<String, Primitive>();
             colors["banana"] = Colors.Yellow;
             colors["apple"] = Colors.Red;
-            //Assert.assertEquals(_______, colors.get("banana"));
+            //Assert.assertEquals(Colors.Yellow, colors["banana"]);
         }
 
         public void findTheColorForTheBananaKey2()
@@ -63,7 +63,7 @@ namespace TeachingKids._05.Recursion
                 ["banana"] = Colors.Yellow,
                 ["apple"] = Colors.Red
             };
-            //Assert.assertEquals(_______, colors.get("banana"));
+            //Assert.assertEquals(Colors.Yellow, colors["banana"]);
         }
 
         public void findTheNumberPositionOfTheWorld()
@@ -75,7 +75,7 @@ namespace TeachingKids._05.Recursion
             messages.Add("Are");
             messages.Add("You");
 
-            String result = messages[____];
+            String result = messages[1];
             //Assert.assertEquals("World!", result);
         }
 
@@ -88,14 +88,14 @@ namespace TeachingKids._05.Recursion
             messages.Insert(3, "Are");
             messages.Insert(4, "You");
 
-            String result = messages[____];
+            String result = messages[1];
             //Assert.assertEquals("World!", result);
         }
 
         public void findTheNumberPositionOfTheWorld3()
         {
             List<String> messages = new List<String>() { "Hello", "World!", "How", "Are", "You" };
-            String result = messages[____];
+            String result = messages[1];
             //Assert.assertEquals("World!", result);
         }
 
@@ -103,13 +103,13 @@ namespace TeachingKids._05.Recursion
         {
             List<String> messages = new List<String>() { "Hello", "World!", "How", "Are", "You" };
             String result = messages[4];
-            //Assert.assertEquals(___, result);
+            //Assert.assertEquals("You", result);
         }
 
         public void whatIsLastNow()
         {
             List<String> messages = new List<String>() { "Hello", "World!", "How", "Are", "You" };
-            messages[4] = ___;
+            messages[4] = "The rest of them";
             String result = messages[4];
             //Assert.assertEquals("The rest of them", result);
         }
@@ -120,16 +120,16 @@ namespace TeachingKids._05.Recursion
             coins[0] = 1;
             coins[1] = 5;
             coins[2] = 10;
-            coins[3] = ____;
+            coins[3] = 25;
 
             //Assert.assertEquals(25, coins[3]);
         }
 
         public void putAQuarterAtTheEnd2()
         {
-            //int[] coins = new int[] { 1, 5, 10, ____ };
-            //int[] coins = new [] { 1, 5, 10, ____ };
-            int[] coins = { 1, 5, 10, ____ };
+            var coins1 = new int[] { 1, 5, 10, 25 };
+            var coins2 = new [] { 1, 5, 10, 25 };
+            int[] coins3 = { 1, 5, 10, 25 };
             
             //Assert.assertEquals(25, coins[3]);
         }
@@ -137,19 +137,19 @@ namespace TeachingKids._05.Recursion
         public void getThirdCoin()
         {
             int[] coins = { 1, 5, 10, 25 };
-            //Assert.assertEquals(10, coins[____]);
+            //Assert.assertEquals(10, coins[2]);
         }
 
         public void whichCoinIsSecond()
         {
             int[] coins = { 1, 5, 10, 25 };
-            //Assert.assertEquals(____, coins[1]);
+            //Assert.assertEquals(5, coins[1]);
         }
 
         public void putAFiftyCentPieceFirst()
         {
             int[] coins = { 1, 5, 10, 25 };
-            coins[0] = ____;
+            coins[0] = 50;
             //Assert.assertEquals(50, coins[0]);
         }
         /**

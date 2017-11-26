@@ -81,6 +81,7 @@
     <Compile Include="05.Recursion\SpiderWeb.cs" />
     <Compile Include="05.Recursion\TreeQuiz.cs" />
     <Compile Include="05.Recursion\TurtleTree.cs" />
+    <Compile Include="06.ModelViewController\AdLibs.cs" />
     <Compile Include="Gyakorlas1.cs" />
     <Compile Include="Gyakorlas2.cs" />
     <Compile Include="MyTasks\ArrayTasks.cs" />

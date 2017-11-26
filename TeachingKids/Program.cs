@@ -4,10 +4,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TeachingKids._03.HiLow;
-using TeachingKids._04.Mastery;
-using TeachingKids._05.Recursion;
 using TeachingKids.MyTasks;
+using TeachingKids._06.ModelViewController;
 
 namespace TeachingKids
 {
@@ -22,7 +20,8 @@ namespace TeachingKids
             //TurtleTree.Start();
             //SpiderWeb.Start();
             //RecursiveSquare.Start();
-            ArrayTasks.Start();
+            //ArrayTasks.Start();
+            AdLibs.Start();
 
 
             //WriteOutThisNumber(10);

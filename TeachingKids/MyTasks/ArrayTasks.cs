@@ -22,6 +22,117 @@ namespace TeachingKids.MyTasks
 
         public static void Start()
         {
+            var list = new List<String>() { "Én", "elmentem", "a", "vásárba", "fél", "pénzzel" };
+
+            for (var i = 0; i < list.Count; i++)
+            {
+                var item = list[i];
+                //...
+            }
+
+            var szoveg = "";
+            foreach (var item in list)
+            {
+                szoveg += item + " ";
+            }
+            szoveg = szoveg.Trim() + ".";
+            Console.WriteLine(szoveg);
+
+            // --
+
+            var j = 0;
+            while (j < list.Count)
+            {
+                // Ez itt pont ugyanolyan, mint egy for ciklus
+
+                j++;
+            }
+
+            var list2 = new List<int>() { 1, 2, 3, 3, 3, 4, 5, 6 };
+
+            var vettemKiValamit = true;
+            while (vettemKiValamit)
+            {
+                vettemKiValamit = list2.Remove(3);
+            }
+
+            Console.WriteLine();
+        }
+
+        private static void Feladat3()
+        {
+            var list = new List<String>() { "Én", "elmentem", "a", "vásárba", "fél", "pénzzel" };
+            //Console.WriteLine(list[0]);
+            //Console.WriteLine(list[1]);
+            //Console.WriteLine(list[2]);
+            //Console.WriteLine(list[3]);
+            //Console.WriteLine(list[4]);
+            //Console.WriteLine(list[5]);
+
+            //for (int i = 0; i < list.Count; i++)
+            //{
+            //    Console.WriteLine(list[i]);
+            //}
+
+            //for (int i = 0; i < list.Count; i++)
+            //{
+            //    Console.Write(list[i]);                // \n \t 
+            //    Console.Write(" ");
+            //}
+            //Console.WriteLine();
+
+            var szoveg = "";
+            for (int i = 0; i < list.Count; i++)
+            {
+                szoveg = szoveg + list[i] + " ";
+            }
+            // "   asdasd     "
+            szoveg = szoveg.Trim();
+            //szoveg = szoveg.Remove(szoveg.Length - 1);
+            szoveg = szoveg + ".";
+            Console.WriteLine(szoveg);
+        }
+
+        private static void Elemelet()
+        {
+            var array = new int[10];
+            var dictionary = new Dictionary<int, int>();
+            var list = new List<int>();
+
+            //array.Length
+            //dictionary.Count
+            //list.Count
+
+            //dictionary[0] = 100;
+            //dictionary.Add(0, 100);
+
+            //dictionary.ContainsKey(0);
+            //dictionary.ContainsValue(100);
+
+            //dictionary.Remove(0);
+
+            //dictionary.Clear();
+
+            //list.Add(0);
+            //list.Clear();
+            //list.Contains();
+            //list.IndexOf(123);
+            //list.LastIndexOf(123);
+            //list.Insert(0, 123);
+            //list.Remove(61);
+            //list.RemoveAt(3);
+            //list.RemoveRange(4, 10);
+            //list.Reverse();
+            //list.Sort();
+            ////list.BinarySearch();
+            //list.ToArray().ToList().ToArray().ToList();
+            //list.ToList();
+
+            //array.ToArray();
+        }
+
+        private static void Feladat2()
+        {
             var sampleArray = GetSampleArray();
             //var sum = sampleArray[0] + sampleArray[1] + sampleArray[2] + sampleArray[3];
 
@@ -34,7 +145,7 @@ namespace TeachingKids.MyTasks
 
             for (var i = 0; i < sampleArray.Length; i++)
             {
-                var bal  = i;
+                var bal = i;
                 var jobb = sampleArray[i];
             }
         }
