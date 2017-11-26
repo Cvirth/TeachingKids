@@ -23,12 +23,29 @@ namespace TeachingKids._05.Recursion
             colors[____] = Colors.DarkGreen;
             //Assert.assertEquals(Colors.DarkGreen, colors[20]));
         }
+        public void setColorUsingKey2()
+        {
+            var colors = new Dictionary<int, Primitive> {
+                [10] = Colors.Lime,
+                [____] = Colors.DarkGreen
+            };
+            //Assert.assertEquals(Colors.DarkGreen, colors[20]));
+        }
 
         public void findTheGreenKey()
         {
             var colors = new Dictionary<int, Primitive>();
             colors[20] = Colors.DarkGreen;
             colors[30] = Colors.Green;
+            //Assert.assertEquals(Colors.Green, colors.get(___));
+        }
+
+        public void findTheGreenKey2()
+        {
+            var colors = new Dictionary<int, Primitive> {
+                [20] = Colors.DarkGreen,
+                [30] = Colors.Green
+            };
             //Assert.assertEquals(Colors.Green, colors.get(___));
         }
 
@@ -40,7 +57,42 @@ namespace TeachingKids._05.Recursion
             //Assert.assertEquals(_______, colors.get("banana"));
         }
 
+        public void findTheColorForTheBananaKey2()
+        {
+            var colors = new Dictionary<String, Primitive> {
+                ["banana"] = Colors.Yellow,
+                ["apple"] = Colors.Red
+            };
+            //Assert.assertEquals(_______, colors.get("banana"));
+        }
+
         public void findTheNumberPositionOfTheWorld()
+        {
+            List<String> messages = new List<String>();
+            messages.Add("Hello");
+            messages.Add("World!");
+            messages.Add("How");
+            messages.Add("Are");
+            messages.Add("You");
+
+            String result = messages[____];
+            //Assert.assertEquals("World!", result);
+        }
+
+        public void findTheNumberPositionOfTheWorld2()
+        {
+            var messages = new List<string>();
+            messages.Insert(0, "Hello");
+            messages.Insert(1, "World!");
+            messages.Insert(2, "How");
+            messages.Insert(3, "Are");
+            messages.Insert(4, "You");
+
+            String result = messages[____];
+            //Assert.assertEquals("World!", result);
+        }
+
+        public void findTheNumberPositionOfTheWorld3()
         {
             List<String> messages = new List<String>() { "Hello", "World!", "How", "Are", "You" };
             String result = messages[____];
@@ -64,7 +116,21 @@ namespace TeachingKids._05.Recursion
 
         public void putAQuarterAtTheEnd()
         {
+            int[] coins = new int[4];
+            coins[0] = 1;
+            coins[1] = 5;
+            coins[2] = 10;
+            coins[3] = ____;
+
+            //Assert.assertEquals(25, coins[3]);
+        }
+
+        public void putAQuarterAtTheEnd2()
+        {
+            //int[] coins = new int[] { 1, 5, 10, ____ };
+            //int[] coins = new [] { 1, 5, 10, ____ };
             int[] coins = { 1, 5, 10, ____ };
+            
             //Assert.assertEquals(25, coins[3]);
         }
 
