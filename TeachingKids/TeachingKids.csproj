@@ -77,6 +77,7 @@
     <Compile Include="04.Mastery\PentagonCrazyHomework.cs" />
     <Compile Include="04.Mastery\PentagonCrazyQuiz.cs" />
     <Compile Include="05.Recursion\RecursiveSquare.cs" />
+    <Compile Include="05.Recursion\RecursionHomework.cs" />
     <Compile Include="05.Recursion\SpiderWeb.cs" />
     <Compile Include="05.Recursion\TreeQuiz.cs" />
     <Compile Include="05.Recursion\TurtleTree.cs" />
