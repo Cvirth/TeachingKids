@@ -21,7 +21,8 @@ namespace TeachingKids
             //SpiderWeb.Start();
             //RecursiveSquare.Start();
             //ArrayTasks.Start();
-            AdLibs.Start();
+            //AdLibsQuiz.Start();
+            AdLibsRtf.Start();
 
 
             //WriteOutThisNumber(10);
